@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
@@ -24,12 +28,26 @@ header {
   float: left;
 }
 
+.logotipo-nombre {
+  padding-left: 20px;
+}
+
+.logotipo-nombre .logotipo-nombre_titulo {
+    font-size: 19px;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+}
+.logotipo-nombre .logotipo-nombre_subtitulo {
+    font-size: 8px;
+    color: rgb(195, 208, 216);
+}
+
 .menu nav {
   float: right;
 }
 
-.menu nav ul li:not(:first-child){
-    padding-left: 20px;
+.menu nav ul li:not(:first-child) {
+  padding-left: 20px;
 }
 
 .menu nav ul {
