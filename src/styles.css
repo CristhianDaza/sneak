@@ -1,3 +1,7 @@
+:root {
+  --primary-color: rgb(255, 86, 114);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +66,7 @@ header {
 }
 
 .menu nav a:hover {
-  background-color: rgb(255, 86, 114);
+  background-color: var(--primary-color);
   padding: 10px 20px;
   color: white;
 }
@@ -78,4 +82,42 @@ header {
   padding: 4px 0 0 30px;
   height: 30px;
   margin: 0 20px;
+}
+
+
+.landing {
+  background-color: rgba(255, 86, 114, .8);
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing h1 {
+  letter-spacing: 10px;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.landing h2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.landing button {
+  color: var(--primary-color);
+  width: 170px;
+  height: 40px;
+  text-transform: uppercase;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
