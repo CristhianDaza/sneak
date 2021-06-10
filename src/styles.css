@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logotipo {
+  display: flex;
+  float: left;
+}
+
+.menu nav {
+  float: right;
+}
+
+.menu nav ul li:not(:first-child){
+    padding-left: 20px;
+}
+
+.menu nav ul {
+  display: flex;
+  list-style: none;
+}
+.menu nav ul a {
+  color: black;
+  text-decoration: none;
+}
