@@ -37,6 +37,10 @@ const traerImagenes = async () => {
                 </figure>
             </div>`;
   });
+  if(menuDesplegable.classList.contains = "menu-activo") {
+    menuDesplegable.classList.remove("menu-activo")
+}
+    bajarScroll();
 };
 
 const traerImagenesCategoria = async (value) => {
@@ -77,7 +81,17 @@ const traerImagenesCategoria = async (value) => {
   if(menuDesplegable.classList.contains = "menu-activo") {
         menuDesplegable.classList.remove("menu-activo")
   }
+  bajarScroll();
 };
+
+const bajarScroll = () => {
+if(window.scrollY < 50) {
+    window.scrollTo({
+        top: 900,
+        behavior: 'smooth'
+        });
+    }
+}
 
 const mostrarMenu = () => menuDesplegable.classList.add("menu-activo");
 
