@@ -172,7 +172,6 @@ head {
 .landing h2 {
   font-size: 15px;
   letter-spacing: 1px;
-  font-family: var(--seconday-font);
   font-weight: 100;
   text-align: center;
   margin-bottom: 35px;
@@ -187,6 +186,11 @@ head {
   font-size: 12px;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+.landing button a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 section .navegation {
