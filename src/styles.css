@@ -213,6 +213,33 @@ section button {
   letter-spacing: 2px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer p {
+  font-family: var(--seconday-font);
+  font-size: 11px;
+  color: rgb(194, 207, 215);
+  letter-spacing: 2px;
+}
+
+footer p span {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+footer .social {
+  margin: 50px 0;
+}
+
+footer .social img {
+  padding: 10px;
+}
+
 @media (min-width: 769px) {
   .menu-activo {
     transform: translate(100%);
@@ -220,10 +247,13 @@ section button {
 }
 
 @media (max-width: 768px) {
-  .menu nav {
+  header .menu nav {
     display: none;
   }
   .menu .menu-desplegable-icon {
     display: block;
   }
+  section menu nav a{
+    padding: 5px !important;
+  }  
 }
