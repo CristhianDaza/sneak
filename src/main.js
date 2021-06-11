@@ -3,6 +3,9 @@ const menuDesplegable = document.getElementById("menu-desplegable");
 const menubotonCerrar = document.getElementById("boton-menu-cerrar");
 const portfolioDiv = document.getElementById("portfolio");
 
+const blockBoton = document.getElementById("block");
+const columnBoton = document.getElementById("column");
+
 const all = document.querySelectorAll(".all");
 const branding = document.querySelectorAll(".branding");
 const web = document.querySelectorAll(".web");
@@ -80,8 +83,15 @@ const mostrarMenu = () => menuDesplegable.classList.add("menu-activo");
 
 const cerrarMenu = () => menuDesplegable.classList.remove("menu-activo");
 
+const verBlock = () => portfolioDiv.classList.remove("vertical");
+
+const verColumn = () => portfolioDiv.classList.add("vertical");
+
 menuBoton.addEventListener("click", mostrarMenu);
 menubotonCerrar.addEventListener("click", cerrarMenu);
+
+blockBoton.addEventListener("click", verBlock);
+columnBoton.addEventListener("click", verColumn);
 
 all.forEach(all => all.addEventListener('click', traerImagenesCategoria));
 branding.forEach(branding => branding.addEventListener('click', traerImagenesCategoria));

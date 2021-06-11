@@ -295,6 +295,11 @@ footer .social img {
   cursor: pointer;
 }
 
+.vertical {
+  column-count: 1 !important;
+  width: 40%;
+}
+
 @media (min-width: 320px) {
   header .menu nav {
     display: none;
@@ -308,6 +313,9 @@ footer .social img {
   section .portfolio-grid {
     column-count: 1;
     max-width: 90%;
+  }
+  .vertical {
+    width: 90%;
   }
 }
 
@@ -328,11 +336,17 @@ footer .social img {
   section .menu nav a{
     padding: 20px !important;
   }
+  .vertical {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1024px) {
   section .portfolio-grid {
     column-count: 3;
     max-width: 60%;
+  }
+  .vertical {
+    width: 40%;
   }
 }
