@@ -62,7 +62,7 @@ header menu a {
   font-family: var(--seconday-font);
   font-size: 14px;
   color: rgb(112, 112, 112);
-  display: flex;
+  letter-spacing: 2px;
 }
 
 .menu nav ul  {
@@ -324,6 +324,9 @@ footer .social img {
   section .portfolio-grid {
     column-count: 2;
     max-width: 80%;
+  }
+  section menu nav a{
+    padding: 20px !important;
   }
 }
 
