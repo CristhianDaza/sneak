@@ -1,5 +1,7 @@
 :root {
   --primary-color: rgb(255, 86, 114);
+  --primary-font: "Montserrat", sans-serif;
+  --seconday-font: "Questrial", sans-serif;
 }
 
 * {
@@ -9,7 +11,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--primary-font)
 }
 
 .container {
@@ -53,7 +55,7 @@ header {
 }
 
 .menu nav {
-  font-family: "Questrial", sans-serif;
+  font-family: var(--seconday-font);
   font-size: 14px;
   color: rgb(112, 112, 112);
   display: flex;
@@ -165,7 +167,7 @@ head {
 .landing h2 {
   font-size: 15px;
   letter-spacing: 1px;
-  font-family: "Questrial", sans-serif;
+  font-family: var(--seconday-font);
   font-weight: 100;
   text-align: center;
   margin-bottom: 35px;
@@ -197,6 +199,18 @@ section .navegation img {
 section .menu {
   justify-content: center;
   margin-bottom: 50px;
+}
+
+section button {
+  display: flex;
+  font-family: var(--seconday-font);
+  font-size: 13px;
+  margin: 10px auto;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border: 0;
+  color: white;
+  letter-spacing: 2px;
 }
 
 @media (min-width: 769px) {
