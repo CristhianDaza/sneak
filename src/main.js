@@ -26,9 +26,13 @@ const traerImagnes = async () => {
                 <figure>
                     <img src="${url}" alt="${title}">
                     <figcaption>
-                        ${title}
+                        <span class="portfolio-grid_title">
+                            ${title.toUpperCase()}
+                        </span>
                         <hr />
-                        ${categorie}
+                        <span class="portfolio-grid_categorie">
+                            ${categorie}
+                        </span>
                     </figcaption>
                 </figure>
             </div>`

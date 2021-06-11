@@ -226,7 +226,8 @@ section .portfolio-grid {
 }
 
 section .portfolio-grid_imagen {
-  padding: 5px;
+  margin: 10px 0;
+  position: relative;
 }
 
 section .portfolio-grid_imagen img{
@@ -234,6 +235,30 @@ section .portfolio-grid_imagen img{
   max-width: 100%;
 }
 
+section .portfolio-grid_imagen figcaption {
+  position: absolute;
+  z-index: 100;
+  color: white;
+  background-color: var(--primary-color);
+  height: 100% ;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  overflow: hidden;
+  letter-spacing: 2px;
+}
+
+section .portfolio-grid_imagen figcaption hr {
+  width: 70%;
+  margin: 10px auto;
+}
+
+section .portfolio-grid_imagen:hover figcaption {
+  display: flex;
+}
 
 footer {
   display: flex;
