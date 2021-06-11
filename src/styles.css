@@ -28,7 +28,7 @@ header {
   justify-content: space-between;
 }
 
-header menu a {
+header a {
   text-decoration: none;
 }
 
@@ -302,7 +302,7 @@ footer .social img {
   .menu .menu-desplegable-icon {
     display: block;
   } 
-  section menu nav a{
+  section nav a{
     padding: 5px !important;
   }
   section .portfolio-grid {
@@ -325,7 +325,7 @@ footer .social img {
     column-count: 2;
     max-width: 80%;
   }
-  section menu nav a{
+  section .menu nav a{
     padding: 20px !important;
   }
 }
