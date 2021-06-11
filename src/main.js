@@ -33,12 +33,6 @@ const traerImagnes = async () => {
                 </figure>
             </div>`
     });
-    // const images = [];
-    
-    // images.push
-
-    // portfolioDiv.appendChild(images);
-    console.log(result);
 }
 
 traerImagnes();
