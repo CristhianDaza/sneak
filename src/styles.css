@@ -94,32 +94,54 @@ head {
   position: relative;
 }
 
-header .menu-desplegable {
+.menu-desplegable {
   background: rgba(0, 0, 0, .9);
   height: 100vh;
-  width: 80%;
-  position: absolute;
+  width: 100vw;
+  position: fixed;
   right: 0;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  transform: translate(100%);
+  overflow: hidden;
+  transition: .2s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
 }
 
-header .menu-desplegable li {
+.menu-activo {
+  transform: translate(0);
+}
+
+
+.menu-desplegable li {
   list-style: none;
   margin-top: 10px;
   font-size: 30px;
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 5px;
 }
 
-header .menu-desplegable a {
+.menu-desplegable a {
   text-decoration: none;
   color: var(--primary-color);
   padding: 10px;
 }
 
-header .menu-desplegable img {
+.menu-desplegable img {
   padding: 10px;
+  margin-top: 10px;
+}
+
+.cerrar-menu {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .landing {
@@ -158,6 +180,13 @@ header .menu-desplegable img {
   font-size: 12px;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+
+@media (min-width: 769px) {
+  .menu-activo {
+    transform: translate(100%);
+  }
 }
 
 @media (max-width: 768px) {
