@@ -217,6 +217,23 @@ section button {
   letter-spacing: 2px;
 }
 
+section .portfolio-grid {
+  max-width: 50%;
+  column-count: 3;
+  margin: 50px auto;
+  break-inside: avoid;
+}
+
+section .portfolio-grid_imagen {
+  padding: 5px;
+}
+
+section .portfolio-grid_imagen img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
 footer {
   display: flex;
   flex-direction: column;
@@ -244,6 +261,12 @@ footer .social img {
   padding: 10px;
 }
 
+@media (max-width: 425px) {
+  section .portfolio-grid {
+    column-count: 1;
+  }
+}
+
 @media (min-width: 769px) {
   .menu-activo {
     transform: translate(100%);
@@ -259,5 +282,16 @@ footer .social img {
   }
   section menu nav a{
     padding: 5px !important;
-  }  
+  }
+  section .portfolio-grid {
+    column-count: 2;
+    max-width: 90%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  section .portfolio-grid {
+    max-width: 70%;
+  }
 }
