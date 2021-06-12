@@ -301,7 +301,7 @@ footer .social img {
 }
 
 @media (min-width: 320px) {
-  .menu nav {
+  .menu nav:not(:last-child) {
     display: none;
   }
   .menu .menu-desplegable-icon {
@@ -323,7 +323,7 @@ footer .social img {
   .menu-activo {
     transform: translate(100%);
   }
-  .menu nav {
+  .menu nav:not(:last-child) {
     display: flex;
   }
   .menu .menu-desplegable-icon {
