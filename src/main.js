@@ -40,7 +40,6 @@ const traerImagenes = async () => {
   if(menuDesplegable.classList.contains = "menu-activo") {
     menuDesplegable.classList.remove("menu-activo")
 }
-    // bajarScroll();
 };
 
 const traerImagenesCategoria = async (value) => {
@@ -51,10 +50,6 @@ const traerImagenesCategoria = async (value) => {
   const categoriaTitulo = value.target.text;
   portfolioDiv.innerHTML = "";
 
-//   if (value.target.text == "All") {
-//     traerImagenes();
-//     return;
-//   }
   const categorias = result.filter(
     (categoria) => categoria.categorie.includes(categoriaTitulo)
   );
