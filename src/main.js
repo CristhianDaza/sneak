@@ -12,7 +12,7 @@ const web = document.querySelectorAll(".web");
 const photography = document.querySelectorAll(".photography");
 const app = document.querySelectorAll(".app");
 
-const viewOur = document.getElementById('viewOur');
+const viewOurBoton = document.getElementById('viewOur');
 
 const url = "src/api.json";
 
@@ -91,6 +91,13 @@ const bajarScroll = () => {
     }
 }
 
+const viewOur = () => {
+    window.scrollTo({
+        top: 900,
+        behavior: 'smooth'
+    });
+}
+
 const mostrarMenu = () => menuDesplegable.classList.add("menu-activo");
 
 const cerrarMenu = () => menuDesplegable.classList.remove("menu-activo");
@@ -111,6 +118,6 @@ web.forEach(web => web.addEventListener('click', traerImagenesCategoria));
 photography.forEach(photography => photography.addEventListener('click', traerImagenesCategoria));
 app.forEach(app => app.addEventListener('click', traerImagenesCategoria));
 
-viewOur.addEventListener('click', bajarScroll)
+viewOurBoton.addEventListener('click', viewOur)
 
 traerImagenes();
