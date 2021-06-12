@@ -3,52 +3,52 @@
         {
             "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2VifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Using MacBook",
-            "categorie": "Web"
+            "categorie": "Web, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1516822198813-254f6f987bca?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGhvdG9ncmFwaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Woman Photo",
-            "categorie": "Photography"
+            "categorie": "Photography, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1612718115105-a41ec9297a90?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBob3RvZ3JhcGh8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Cars Parked",
-            "categorie": "Photography"
+            "categorie": "Photography, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFwcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Pyro App",
-            "categorie": "App"
+            "categorie": "App, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Workhard",
-            "categorie": "Web"
+            "categorie": "Web, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1615469309489-0a464a9925cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTd8fGJyYW5kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "PWC",
-            "categorie": "Branding"
+            "categorie": "Branding, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1611164516259-7ea6a484fc68?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGJyYW5kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Pick Candle",
-            "categorie": "Branding"
+            "categorie": "Branding, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixid=MnwxMjA3fDF8MHxzZWFyY2h8NHx8YXBwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Writing App",
-            "categorie": "App"
+            "categorie": "App, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1603539947678-cd3954ed515d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFwcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Analytics",
-            "categorie": "App"
+            "categorie": "App, All"
         },
         {
             "url": "https://images.unsplash.com/photo-1598623549917-a38dc6cd19b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvdG9ncmFwaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
             "title": "Kid Photo",
-            "categorie": "Photography"
+            "categorie": "Photography, All"
         }
     ]
 }

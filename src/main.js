@@ -31,7 +31,7 @@ const traerImagenes = async () => {
                         </span>
                         <hr />
                         <span class="portfolio-grid_categorie">
-                            ${categorie}
+                            ${categorie.slice(0, -5)}
                         </span>
                     </figcaption>
                 </figure>
@@ -40,7 +40,7 @@ const traerImagenes = async () => {
   if(menuDesplegable.classList.contains = "menu-activo") {
     menuDesplegable.classList.remove("menu-activo")
 }
-    bajarScroll();
+    // bajarScroll();
 };
 
 const traerImagenesCategoria = async (value) => {
@@ -51,12 +51,12 @@ const traerImagenesCategoria = async (value) => {
   const categoriaTitulo = value.target.text;
   portfolioDiv.innerHTML = "";
 
-  if (value.target.text == "All") {
-    traerImagenes();
-    return;
-  }
+//   if (value.target.text == "All") {
+//     traerImagenes();
+//     return;
+//   }
   const categorias = result.filter(
-    (categoria) => categoria.categorie == categoriaTitulo
+    (categoria) => categoria.categorie.includes(categoriaTitulo)
   );
   categorias.forEach((img) => {
     const { url, title, categorie } = img;
@@ -71,7 +71,7 @@ const traerImagenesCategoria = async (value) => {
                         </span>
                         <hr />
                         <span class="portfolio-grid_categorie">
-                            ${categorie}
+                            ${categorie.slice(0, -5)}
                         </span>
                     </figcaption>
                 </figure>
@@ -85,11 +85,11 @@ const traerImagenesCategoria = async (value) => {
 };
 
 const bajarScroll = () => {
-if(window.scrollY < 50) {
-    window.scrollTo({
-        top: 900,
-        behavior: 'smooth'
-        });
+    if(window.scrollY < 10) {
+        window.scrollTo({
+            top: 900,
+            behavior: 'smooth'
+            });
     }
 }
 
