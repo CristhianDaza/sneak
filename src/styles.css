@@ -301,7 +301,7 @@ footer .social img {
 }
 
 @media (min-width: 320px) {
-  header .menu nav {
+  .menu nav {
     display: none;
   }
   .menu .menu-desplegable-icon {
@@ -323,7 +323,7 @@ footer .social img {
   .menu-activo {
     transform: translate(100%);
   }
-  header .menu nav {
+  .menu nav {
     display: flex;
   }
   .menu .menu-desplegable-icon {
