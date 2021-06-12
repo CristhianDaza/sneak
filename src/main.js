@@ -11,6 +11,9 @@ const branding = document.querySelectorAll(".branding");
 const web = document.querySelectorAll(".web");
 const photography = document.querySelectorAll(".photography");
 const app = document.querySelectorAll(".app");
+
+const viewOur = document.getElementById('viewOur');
+
 const url = "src/api.json";
 
 const traerImagenes = async () => {
@@ -107,5 +110,7 @@ branding.forEach(branding => branding.addEventListener('click', traerImagenesCat
 web.forEach(web => web.addEventListener('click', traerImagenesCategoria));
 photography.forEach(photography => photography.addEventListener('click', traerImagenesCategoria));
 app.forEach(app => app.addEventListener('click', traerImagenesCategoria));
+
+viewOur.addEventListener('click', bajarScroll)
 
 traerImagenes();
