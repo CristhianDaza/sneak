@@ -242,7 +242,7 @@ section .portfolio-grid_imagen figcaption {
   color: white;
   background-color: var(--primary-color);
   opacity: .8;
-  height: 100% ;
+  height: 99% ;
   width: 100%;
   display: none;
   flex-direction: column;
